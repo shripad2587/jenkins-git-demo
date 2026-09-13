@@ -4,3 +4,4 @@ date
 pwd
 uname -r
 uname -a
+cat /etc/os-release
