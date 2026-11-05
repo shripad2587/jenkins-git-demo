@@ -9,7 +9,7 @@ pipeline {
                 sh '''
                 pwd
                 ls -lrt
-                sleep 10
+                sleep 5
                 '''
             }
         }
@@ -19,7 +19,7 @@ pipeline {
                 echo 'Build Stage Started'
                 sh '''
                 echo "Building Application"
-                sleep 10
+                sleep 5
                 '''
             }
         }
@@ -48,7 +48,7 @@ pipeline {
                 echo 'Hefshine'
                 sh '''
                 echo "  Hefshine"
-                sleep 10
+                sleep 3
                 '''
             }
         }
