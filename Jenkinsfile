@@ -43,6 +43,15 @@ pipeline {
                 '''
             }
         }
+        stage('Hefshine') {
+            steps {
+                echo 'Hefshine'
+                sh '''
+                echo "  Hefshine"
+                sleep 10
+                '''
+            }
+        }
     }
 
     post {
