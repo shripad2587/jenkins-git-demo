@@ -52,6 +52,15 @@ pipeline {
                 '''
             }
         }
+               stage('Happy Diwali') {
+            steps {
+                echo 'Happy Diwali'
+                sh '''
+                echo "Happy Diwali"
+                sleep 3
+                '''
+            }
+        }
     }
 
     post {
