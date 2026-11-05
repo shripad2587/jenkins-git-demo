@@ -26,10 +26,10 @@ pipeline {
 
         stage('Test') {
             steps {
-                eco 'Test Stage Started'
+                echo 'Test Stage Started'
                 sh '''
-                eco "Testing Application"
-                slep 10
+                echo "Testing Application"
+                sleep 10
                 '''
             }
         }
